@@ -7,20 +7,27 @@
     <link rel="stylesheet" href="./assests/style.css">
 </head>
 <body>
-    <h1 class="mainHeading">Expense Tracker</h1>
-    <form>
-        <label for=""></label>
-        <input type="text"/>
+    <h1 class="mainHeading align-center">Expense Tracker</h1>
+    <form class="align-center">
+        <label for="amount">Expense Amount:</label>
+        <input type="number" id="amount" name="amount" placeholder="Enter the amount"/>
         <br><br>
-        <label for=""></label>
-        <input type="text"/>
+        <label for="description">Description:</label>
+        <input type="text" id="description" name="description" placeholder="Enter the description"/>
         <br><br>
-        <label for=""></label>
-        <input type="text"/>
+        <label for="category">Choose a category:</label>
+        <select name="category" id="category">
+            <option value="">--Select An Option--</option>
+            <option value="movie">Movie</option>
+            <option value="fuel">Fuel</option>
+            <option value="food">Food</option>
+            <option value="household">Household</option>
+        </select>
         <br><br>
-        <button type="submit">Add Expense</button>
+        <button type="submit" class="add-btn">Add Expense</button>
     </form>
-    <ul></ul>
+    <br><br>
+    <ul class="align-center"></ul>
     <script src="./assests/func.js"></script>
 </body>
 </html>

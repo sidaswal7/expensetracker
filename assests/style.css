@@ -1,0 +1,13 @@
+body{
+    background-color: #0b0b2c;
+    color: #d5d500;
+}
+.align-center{
+    text-align: center;
+}
+ul{
+    list-style: none;
+}
+.delete-btn{
+    margin-left: 10px;
+}
